@@ -16,9 +16,8 @@ body {
     margin-top: 15px;
     border: 3px whitesmoke solid;
     box-shadow: 10px 10px 10px rgb(247, 129, 108);
-    margin-left: 15px;
 }
-#camera {
+#camera, #result {
     width: 310px;
     height: 300px;
     border: 2px white solid;
@@ -34,8 +33,27 @@ body {
     margin-top: 15px;
     padding: 5px;
     font-size: 15px;
-    box-shadow: -2px -4px 10px rgb(9, 172, 236);
+    box-shadow: -2px -4px 10px rgba(232, 245, 49, 0.479);
 }
 .main_div button:hover {
-    background-color: seagreen;
+    background-color: rgba(232, 245, 49, 0.479);
+}
+.footer_div {
+    margin-bottom: 50px;
+}
+.footer_div img {
+    width: 70px;
+}
+.footer_div h4 {
+    background-color: aliceblue;
+    border-radius: 3px;
+    box-shadow: 5px -4px 10px pink;
+}
+.name_footer_div {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 255, 128, 0.233);
+    line-height: 3;
+    width: 100%;
+    text-align: center;
 }
